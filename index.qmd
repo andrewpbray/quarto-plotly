@@ -5,7 +5,13 @@ title: "Test Plotly"
 This is a minimal repo to test out publishing websites that include graphics produced using `plotly`.
 
 ```{r}
+rnorm(5)
+```
+
+
+```{r}
 #| warning: false
+#| echo: false
 library(tidyverse)
 zagat <- read_csv("https://www.dropbox.com/s/c797oanmvdzjegt/zagat.csv?dl=1")
 
