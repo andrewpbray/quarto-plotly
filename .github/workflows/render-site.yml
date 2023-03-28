@@ -42,7 +42,6 @@ jobs:
 
       - name: Commit and push rendered output
         run: |
-          # cd gh-pages
           git config --global user.email "andrewbray@berkeley.edu"
           git config --global user.name "Andrew Bray"
           git add site/
