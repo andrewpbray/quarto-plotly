@@ -42,6 +42,7 @@ jobs:
 
       - name: Commit and push rendered output
         run: |
+          pwd
           git config --global user.email "andrewbray@berkeley.edu"
           git config --global user.name "Andrew Bray"
           git add site/
