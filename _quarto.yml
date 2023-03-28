@@ -9,6 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: notes.qmd
+        text: Sample Notes
 
 format:
   html:
