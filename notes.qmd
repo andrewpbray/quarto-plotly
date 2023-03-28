@@ -6,6 +6,8 @@ date: 02/01/23
 format:
   html: default
   pdf: default
+execute: 
+  eval: false
 ---
 
 [[PDF]{.btn .btn-primary}](notes.pdf)
@@ -49,8 +51,6 @@ Let's turn to an example admittedly less complex than Hamlet: the Palmer penguin
 
 ```{r}
 library(tidyverse)
-remotes::install_github("stat20/stat20data")
-install.packages("patchwork")
 library(stat20data)
 bill_16 <- penguins %>%
   select(bill_length_mm) %>%
