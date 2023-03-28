@@ -42,10 +42,10 @@ jobs:
 
       - name: Commit and push rendered output
         run: |
-          ls
           cd master
+          ls
           git config --global user.email "andrewbray@berkeley.edu"
           git config --global user.name "Andrew Bray"
-          git add site/
+          git add _site/
           git commit -a -m "github actions commit."
           git push
