@@ -6,8 +6,6 @@ date: 02/01/23
 format:
   html: default
   pdf: default
-execute: 
-  eval: false
 ---
 
 [[PDF]{.btn .btn-primary}](notes.pdf)
