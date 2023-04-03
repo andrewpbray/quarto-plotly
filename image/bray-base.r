@@ -12,6 +12,6 @@ set_libs = c(
 
 set_libs_install_version(set_name, set_libs)
 
-# devtools::install_github("andrewpbray/boxofdata@8afd934")
+remotes::install_github("stat20/stat20data")
 
 print(paste("Done installing packages for",set_name))
