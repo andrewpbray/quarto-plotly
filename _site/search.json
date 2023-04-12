@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "notes.html",
     "href": "notes.html",
     "title": "Summarizing Numerical Data",
@@ -46,6 +39,13 @@
     "href": "index.html",
     "title": "Test Plotly",
     "section": "",
-    "text": "This is a minimal repo to test out publishing websites that include graphics produced using plotly.\n\nrnorm(5)\n\n[1] -0.02869881  0.28084939  1.60306322  0.99731300 -0.57062200"
+    "text": "This is a minimal repo to test out publishing websites that include graphics produced using plotly.\n\nrnorm(5)\n\n[1] -0.34570421  0.07605426 -1.17631436 -0.26407762  0.93070285"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
