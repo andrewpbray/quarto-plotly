@@ -30,3 +30,11 @@ COPY set-libs.r /tmp/set-libs.r
 
 COPY bray-base.r /tmp/r-packages/
 RUN r /tmp/r-packages/bray-base.r
+
+RUN mkdir /app
+
+WORKDIR /app
+
+EXPOSE 8000
+
+CMD ["quarto", "preview", "--no-browser", "--port", "8000", "--host", "0.0.0.0"]
