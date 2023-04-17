@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "Test Plotly",
     "section": "",
-    "text": "This is a minimal repo to test out publishing websites that include graphics produced using plotly.\n\nrnorm(5)\n\n[1] -0.34570421  0.07605426 -1.17631436 -0.26407762  0.93070285"
+    "text": "This is a minimal repo to test out publishing websites that include graphics produced using plotly.\n\nrnorm(5)\n\n[1]  1.1476393  0.2201744 -1.1138656  0.1743799 -0.8894539"
   },
   {
     "objectID": "about.html",
