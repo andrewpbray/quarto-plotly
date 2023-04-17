@@ -1,9 +1,10 @@
 version: "3.9"
 services:
   quarto:
-    build: image:stat20
+    image: stat20bot/quarto-plotly:main
     ports:
       - "8000:8000"
+      - "8787:8787"
     volumes:
-      - /Users/andrewbray/Dropbox/reprex-repos/quarto-plotly:/app
+      - ./:/app
 
