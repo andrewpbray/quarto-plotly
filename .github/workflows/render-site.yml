@@ -10,7 +10,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     container:
-      image: ucbscf/stat20-course-materials:latest
+      image: stat20bot/quarto-plotly:main
 
     permissions:
       contents: write
